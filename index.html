@@ -22,6 +22,9 @@
                  
             }
 
+            .ciz {
+                  text-decoration: line-through;
+            }
 
       </style>
 
@@ -30,17 +33,30 @@
 
       <div class=" container mt-4">
            
-            <input type="checkbox" class="me-4" id="input1">
+            <div class="ui toggle checkbox" name="public">
+                  <input type="checkbox" class="me-4" id="input1">
+                  <label for="">Activate Button</label>
+            </div>
+
+            <h3>Menu 1</h3>
             <ul id="menu1">
                   <li>Python</li>
                   <li>Node JS</li>
                   <li>Express Js</li>
             </ul>
 
+            <h3>Menu 2</h3>
             <ul id="menu2">
                   <li>Boston</li>
                   <li>New York</li>
                   <li>Ireland</li>
+            </ul>
+
+            <h3>Menu 3</h3>
+            <ul id="menu3">
+                  <li>Elma</li>
+                  <li>Erik</li>
+                  <li>Kavun</li>
             </ul>
 
           
@@ -58,7 +74,7 @@
                         Add to new li
                   </button>
                   <button class="ui inverted red button" id="deleteBtn">
-                        Delete li
+                        Delete Menu1 & Menu2
                   </button>
       
             </div>
